@@ -1,5 +1,8 @@
 # users/manifests/init.pp
 
+
+include users::home
+
 class users {
     user {'elmo':
     ensure      => 'present',
