@@ -2,7 +2,7 @@
 
 class users::home {
 
-  file { 'c:/temp/elmoHD':
+  file { 'c:/tmp/elmoHD':
     ensure => 'directory',
   }
 }
